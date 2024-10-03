@@ -1,0 +1,102 @@
+
+.full-screen {
+    width: 100%;
+    padding-top: 140px;
+}
+
+.container.re-con {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.container .row{
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: 1rem;
+}
+
+.container .col{
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    box-sizing: border-box;
+
+}
+
+.container .col.left{
+    width: 42%;
+}
+.container .center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.container .col.right{
+    width: 58%;  
+    overflow: hidden;
+    padding-top: 2rem;
+}
+
+
+.container .right_text_top {
+    overflow: hidden;
+}
+.container .left_img {
+    width: 40%;
+    float: left;
+}
+
+
+.container .left_img>img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.container .right_button {
+    width: 55%;
+    float: right;
+}
+.right_button>a {
+    display: block;
+    width: 54%;
+    height: 3.6rem;
+    position: relative;
+    background-color: #1db7f0;
+    border-radius: 30rem;
+    margin-top: 0.7rem;
+    font-size: 0.6rem;
+    color: #fff;
+    padding-left: 30%;
+    line-height:3.6rem;
+}
+
+
+.right_button .bg_pad {
+    display: inline-block;
+    width:3.6rem;
+    height: 3.6rem;
+    background: url(../images/apple.png) 0 center no-repeat;
+    background-size: 65% 65%;
+    position: absolute;
+    left: 20%;
+}
+.right_button .bg_android {
+    display: inline-block;
+    width: 3.6rem;
+    height: 3.6rem;
+    background: url(../images/android.png) 0 center no-repeat;
+    background-size: 65% 65%;
+    position: absolute;
+    left: 20%;
+}
+
+
+.container .col.right>p {
+    font-size: 0.6rem;
+    color: #767676;
+    margin-top: 0.5rem;
+}
